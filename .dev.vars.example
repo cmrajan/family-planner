@@ -1,0 +1,17 @@
+DEV_USER_EMAIL=you@example.com
+USER_EMAIL_MAP='{"you@example.com":"dad"}'
+
+# Optional (do not commit real values):
+# GEMINI_API_KEY=...
+# GEMINI_MODEL=gemini-flash-lite-latest
+# PUSH_VAPID_PUBLIC_KEY=...
+# PUSH_VAPID_PRIVATE_KEY=...
+# PUSH_VAPID_SUBJECT=mailto:you@example.com
+#
+# Optional overlays:
+# BIN_COLLECTIONS_UPRN=...
+# BIN_COLLECTIONS_SOURCE_BASE=https://example.com/api/collections
+# SCHOOL_DATES_SOURCE_URL=https://example.com/term-dates
+# SCHOOL_DATES_SOURCE_NAME=Example School
+# SCHOOL_DATES_SCHOOL_SLUG=example-school
+

@@ -1,0 +1,27 @@
+name = "push-reminders-dispatcher"
+main = "src/index.ts"
+compatibility_date = "2025-01-01"
+tsconfig = "../../tsconfig.json"
+
+[[kv_namespaces]]
+binding = "FAMILY_PLANNER_KV"
+id = "b1d6d5563ef349df8b426c71cff0181a"
+preview_id = "local"
+
+[triggers]
+crons = ["* * * * *"]
+
+[observability]
+enabled = true
+head_sampling_rate = 1
+
+[observability.logs]
+enabled = true
+head_sampling_rate = 1
+persist = true
+invocation_logs = true
+
+[observability.traces]
+enabled = true
+persist = true
+head_sampling_rate = 1
