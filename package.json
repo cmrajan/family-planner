@@ -10,7 +10,7 @@
     "build:client": "vite build",
     "preview": "vite preview",
     "typecheck": "tsc --noEmit",
-    "deploy": "npx wrangler pages deploy"
+    "deploy": "npm run deploy"
   },
   "dependencies": {
     "@block65/webcrypto-web-push": "^1.0.2",
